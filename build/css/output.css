@@ -646,6 +646,10 @@ video {
   height: 1.5rem;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .max-h-screen {
   max-height: 100vh;
 }
@@ -722,6 +726,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -740,10 +748,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-16 {
-  gap: 4rem;
 }
 
 .overflow-hidden {
@@ -1025,8 +1029,24 @@ video {
     display: flex;
   }
 
+  .lg\:h-64 {
+    height: 16rem;
+  }
+
+  .lg\:h-72 {
+    height: 18rem;
+  }
+
   .lg\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .lg\:w-80 {
+    width: 20rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:max-w-lg {
