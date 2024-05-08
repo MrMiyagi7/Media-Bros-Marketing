@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/css/leaflet.css">
     <link rel="icon" href="../images/favicon.ico">
 </head>
+<style>
+    /* For animation */
+    @keyframes slideFromLeft {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 100;
+      }
+    }
+  
+    /* Apply the animation to the image */
+    #slideImg {
+      animation: slideFromLeft 3s ease-in-out;
+    }
+  </style>
 <body>
         <!-- Header/navigation -->
         <header>
@@ -20,7 +38,7 @@
                         <a class="text-lg text-[#0e9594] font-bold" href="../index.html">Home</a>
                         <a class="text-lg text-[#0e9594] font-bold" href="../index.html#about">About</a>
                         <a class="text-lg text-[#0e9594] font-bold" href="../index.html#companies">Companies</a>
-                        <a class="text-lg text-[#0e9594] font-bold" href="">Blogs</a>
+                        <a class="text-lg text-[#0e9594] font-bold" href="blogs.html">Blogs</a>
     
                     </div>
                     <div>
@@ -60,11 +78,15 @@
                 <a class="text-base text-[#0e9594] font-bold" href="../index.html">Home</a>
                 <a class="text-base text-[#0e9594] font-bold" href="../index.html#about">About</a>
                 <a class="text-base text-[#0e9594] font-bold" href="../index.html#companies">Companies</a>
-                <a class="text-base text-[#0e9594] font-bold" href="">Blogs</a>
+                <a class="text-base text-[#0e9594] font-bold" href="blogs.html">Blogs</a>
                 </div>
     
             </div>
         </header>
+
+        <div class="flex justify-center p-20">
+            <img id="slideImg" src="../images/comingsoon.png" class="hidden left-0 animate-bounce" alt="Your Image">
+          </div>
          <!-- Footer -->
          <div class="w-full bg-[#0e9594] p-10">
             <div class="container flex flex-col mx-auto gap-2">
@@ -121,7 +143,11 @@
     </footer>
     <script>
         document.getElementById("mobile-toggle-menu").addEventListener("click", function() {document.getElementById("mobile-menu").classList.toggle("hidden");} );
-        </script>
+
+        document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("slideImg").classList.remove("hidden");
+        });
+    </script>
     
 </body>
 </html>
