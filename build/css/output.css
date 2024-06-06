@@ -739,6 +739,10 @@ video {
   width: 100%;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
 .max-w-\[550px\] {
   max-width: 550px;
 }
@@ -1211,10 +1215,6 @@ video {
     height: 18rem;
   }
 
-  .lg\:min-h-72 {
-    min-height: 18rem;
-  }
-
   .lg\:w-11\/12 {
     width: 91.666667%;
   }
@@ -1229,10 +1229,6 @@ video {
 
   .lg\:w-96 {
     width: 24rem;
-  }
-
-  .lg\:min-w-96 {
-    min-width: 24rem;
   }
 
   .lg\:max-w-lg {
@@ -1279,10 +1275,6 @@ video {
 
   .lg\:hover\:h-72:hover {
     height: 18rem;
-  }
-
-  .lg\:hover\:w-5\/6:hover {
-    width: 83.333333%;
   }
 
   .lg\:hover\:w-96:hover {

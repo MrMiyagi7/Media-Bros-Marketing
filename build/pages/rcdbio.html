@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Bros Marketing</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/css/leaflet.css">
+    <link rel="icon" href="../images/favicon.ico">
+    <script defer id="site-behaviour-script" data-secret="be54b3eb-e607-4af8-98ac-b3ee1053ad83" src="https://sitebehaviour-cdn.fra1.cdn.digitaloceanspaces.com/index.min.js" ></script>
+</head>
+<body class="bg-slate-300 h-screen">
+        <!-- Header/navigation -->
+        <header>
+            <div class="w-full h-16 bg-[#0e9594] flex justify-center">
+            <div class=" absolute top-5 flex justify-around items-center w-3/4 bg-[#f4f4f4] h-20">
+                    <div>
+                        <a href="../index.html"><img class="w-20" src="../images/mblogo.jpeg"></a>
+                    </div>
+                    <div class=" hidden md:flex items-center justify-center gap-16">
+                        <a class="text-lg text-[#0e9594] font-bold" href="../index.html">Home</a>
+                        <a class="text-lg text-[#0e9594] font-bold" href="../index.html#about">About</a>
+                        <a class="text-lg text-[#0e9594] font-bold" href="../index.html#companies">Companies</a>
+                        <a class="text-lg text-[#0e9594] font-bold" href="./blogs.html">Blogs</a>
+                        <a class="text-lg text-[#0e9594] font-bold" href="../pages/contact.html">Contact us</a>
+    
+                    </div>
+                    <div>
+                        <button class="p-4 md:hidden" id="mobile-toggle-menu">
+                            <svg
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    class="h-6 w-6"
+                    fill="none"
+                    >
+                    <g clip-path="url(#clip0_429_11066)">
+                        <path
+                        d="M3 6.00092H21M3 12.0009H21M3 18.0009H21"
+                        stroke="#292929"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_429_11066">
+                        <rect
+                            width="24"
+                            height="24"
+                            fill="white"
+                            transform="translate(0 0.000915527)"
+                        />
+                        </clipPath>
+                    </defs>
+                    </svg>
+                </button>
+            </div>
+            <!-- mobile navigation -->
+            <div id="mobile-menu" class=" absolute hidden w-full top-full">
+                <div class="absolute flex items-center justify-center flex-col gap-3 overflow-hidden bg-[#F4F4F4] max-h-screen px-4 py-8 shadow-lg w-full ">
+                <a class="text-base text-[#0e9594] font-bold" href="../index.html">Home</a>
+                <a class="text-base text-[#0e9594] font-bold" href="../index.html#about">About</a>
+                <a class="text-base text-[#0e9594] font-bold" href="../index.html#companies">Companies</a>
+                <a class="text-base text-[#0e9594] font-bold" href="./blogs.html">Blogs</a>
+                <a class="text-base text-[#0e9594] font-bold" href="../pages/contact.html">Contact us</a>
+                </div>
+    
+            </div>
+        </header>
+
+        <!-- How to section -->
+        <div class="w-full">
+            <div class="container flex flex-col items-center gap-16 mx-auto my-32 p-10">
+              <div class="grid w-ful grid-cols-1 gap-32 lg:grid-cols-2">
+                <div class="flex justify-center items-center">
+                  <div class="bg-slate-900 p-5 rounded-lg shadow-xl">
+                    <img class=""  src="https://rcd.bio/wp-content/uploads/2023/02/RCD-footer-01.webp">
+                  </div>
+                </div>
+                <div class="flex flex-col gap-16">
+                  <div class="flex flex-col gap-2 text-center md:text-left">
+                    <h2 class="text-3xl font-extrabold md:text-4xl lg:text-5xl text-gray-900">How to use our discount codes?</h2>
+                    <p class="text-base font-medium leading-7 text-gray-600"><span style="color: rgb(55, 65, 81); font-family: Sohne, ul-san-serif, system-ul, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"></span>Follow these easy steps to claim your discount when shopping with our associated companies.</p>
+                  </div>
+                  <div class="grid w-full grid-cols-1 md:grid-cols-2 gap-y-20 gap-x-10">
+                    <!-- Item 1 -->
+                    <div class="flex flex-col items-start gap-3">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-slate-900">
+                        <span class="text-base font-bold leading-7 text-white">1</span>
+  
+                      </div>
+                      <h3 class="text-base font-bold leading-tight text-gray-900">Visit RCD.Bio Website</h3>
+                      <p class="text-base font-medium leading-7 text-gray-600">Go to RCD.Bio, by clicking on the logo on the main page.</p>
+  
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="flex flex-col items-start gap-3">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-[#0e9594]">
+                        <span class="text-base font-bold leading-7 text-white">2</span>
+                      </div>
+                      <h3 class="text-base font-bold leading-tight text-gray-900">Choose products you want to purchase</h3>
+                      <p class="text-base font-medium leading-7 text-gray-600">Select products offered by RCD.Bio and add them to your cart.</p>
+  
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="flex flex-col items-start gap-3">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-[#0e9594]">
+                        <span class="text-base font-bold leading-7 text-white">3</span>
+  
+                      </div>
+                      <h3 class="text-base font-bold leading-tight text-gray-900">Proceed to shopping cart</h3>
+                      <p class="text-base font-medium leading-7 text-gray-600">Once you have chosen your desired products proceed to shopping cart.</p>
+  
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="flex flex-col items-start gap-3">
+                      <div class="flex items-center justify-center w-12 h-12 rounded-full mb-2 bg-slate-900">
+                        <span class="text-base font-bold leading-7 text-white">4</span>
+  
+                      </div>
+                      <h3 class="text-base font-bold leading-tight text-gray-900">Enter code and checkout</h3>
+                      <p class="text-base font-medium leading-7 text-gray-600">Once you are in the cart look for the code input tab, input the code <strong>"<u>media20</u>"</strong>, and enjoy <strong><u>20%</u></strong> off all your orders.
+
+                      </p>
+  
+                    </div>
+  
+  
+  
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="w-full bg-[#0e9594] p-12">
+            <div class="container flex flex-col mx-auto gap-2">
+                <div class="flex flex-col items-center gap-6">
+                  <!-- Socials -->
+                  <div class="flex items-center gap-8">
+                    <!-- Facebook  -->
+                    <a href="https://www.facebook.com/profile.php?id=61557163688063" target="_blank" class="text-slate-700 hover:text-slate-900">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="none">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z" fill="currentColor"/>
+                      <mask id="mask0_3320_6483" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="7" y="3" width="10" height="18">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z" fill="black"/>
+                      </mask>
+                      <g mask="url(#mask0_3320_6483)"/>
+                    </svg>
+                  </a>
+                    <!-- Tiktok -->
+                    <a href="https://www.tiktok.com/@mediabrosmarketing" target="_blank" class="text-slate-700 hover:text-slate-900">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+                          </svg>
+                        
+                    
+                      </svg>
+                  </a>
+                
+                
+       
+            <!-- Instagram -->
+            <a href= "https://www.instagram.com/mediabrosmarketing/" target="_blank" class="text-slate-700 hover:text-slate-900">
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" fill="#000">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.60063 2.18182H16.3991C19.3873 2.18182 21.8183 4.61281 21.8182 7.60074V16.3993C21.8182 19.3872 19.3873 21.8182 16.3991 21.8182H7.60063C4.6127 21.8182 2.18182 19.3873 2.18182 16.3993V7.60074C2.18182 4.61281 4.6127 2.18182 7.60063 2.18182ZM16.3993 20.0759C18.4266 20.0759 20.0761 18.4266 20.0761 16.3993H20.0759V7.60074C20.0759 5.57348 18.4265 3.92405 16.3991 3.92405H7.60063C5.57336 3.92405 3.92405 5.57348 3.92405 7.60074V16.3993C3.92405 18.4266 5.57336 20.0761 7.60063 20.0759H16.3993ZM6.85714 12.0001C6.85714 9.16424 9.16418 6.85714 12 6.85714C14.8358 6.85714 17.1429 9.16424 17.1429 12.0001C17.1429 14.8359 14.8358 17.1429 12 17.1429C9.16418 17.1429 6.85714 14.8359 6.85714 12.0001ZM8.62798 12C8.62798 13.8593 10.1407 15.3719 12 15.3719C13.8593 15.3719 15.372 13.8593 15.372 12C15.372 10.1406 13.8594 8.6279 12 8.6279C10.1406 8.6279 8.62798 10.1406 8.62798 12Z" fill="currentColor"/>
+                <mask id="mask0_3320_6487" style="mask-type: luminance" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.60063 2.18182H16.3991C19.3873 2.18182 21.8183 4.61281 21.8182 7.60074V16.3993C21.8182 19.3872 19.3873 21.8182 16.3991 21.8182H7.60063C4.6127 21.8182 2.18182 19.3873 2.18182 16.3993V7.60074C2.18182 4.61281 4.6127 2.18182 7.60063 2.18182ZM16.3993 20.0759C18.4266 20.0759 20.0761 18.4266 20.0761 16.3993H20.0759V7.60074C20.0759 5.57348 18.4265 3.92405 16.3991 3.92405H7.60063C5.57336 3.92405 3.92405 5.57348 3.92405 7.60074V16.3993C3.92405 18.4266 5.57336 20.0761 7.60063 20.0759H16.3993ZM6.85714 12.0001C6.85714 9.16424 9.16418 6.85714 12 6.85714C14.8358 6.85714 17.1429 9.16424 17.1429 12.0001C17.1429 14.8359 14.8358 17.1429 12 17.1429C9.16418 17.1429 6.85714 14.8359 6.85714 12.0001ZM8.62798 12C8.62798 13.8593 10.1407 15.3719 12 15.3719C13.8593 15.3719 15.372 13.8593 15.372 12C15.372 10.1406 13.8594 8.6279 12 8.6279C10.1406 8.6279 8.62798 10.1406 8.62798 12Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_3320_6487)"/>
+              </svg>
+          </a>
+        
+        
+        
+                  </div>
+
+            
+
+                </div>
+                <div class="w-full flex justify-center items-center leading-7">
+                    <p class="text-base font-normal text-slate-900 text-center">Media Bro's Marketing. All rights reserved.</p>
+    
+                </div>
+        </div>
+        </div>
+
+    </footer>
+    <script>
+        document.getElementById("mobile-toggle-menu").addEventListener("click", function() {document.getElementById("mobile-menu").classList.toggle("hidden");} );
+        </script>
+    
+</body>
+</html>
